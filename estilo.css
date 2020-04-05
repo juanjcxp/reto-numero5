@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: arial;
+}
+
+h2{
+    color:#356EAD;
+}
+
+h3{
+    color: #1F3F68;
+}
+
+hr{
+    color:#356EAD;
+}
+
+
+
+/* header */
+
+header{
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    width: 100%;
+    padding: 20px;
+}
+
+header ul{
+    display: flex;
+}
+
+header li{
+    list-style: none;
+    margin-left: 20px;
+}
+
+header a{
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+
+/* banner */
+
+.banner{
+    background-image: url(img/banner\ \(1\).png);
+    height: 250px;
+}
+
+.banner h2{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    color: white;
+}
+
+.banner p{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    color: white;
+}
+
+/* formulario */
+.formulario .contenedor{
+    width: 940px;
+}
+
+input{
+    width: 100%;
+    height: 40px;
+    margin-left: 205px;
+}
+/* popular */
+
+.titulopopular{
+    width: 940px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.popular{
+    width: 940px;
+    margin: auto;
+    display: grid;
+    grid-template-columns:  40% 60%;
+    grid-template-rows: 380px;
+    margin-bottom: 40px;
+}
+
+.popularizquierda h2{
+    color: #1F3F68;
+    font-size: 36px;
+}
+
+.popularizquierda p{
+    margin-top: 20px;
+}
+
+.popularderecha img{
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.pie{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    margin-top: 70px;
+}
+
+.pie p{
+    margin-left: 10px;
+    color: #1F3F68;
+}
+
+.pie a{
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+
+/* tres cuadros */
+
+.trescuadros{
+    max-width: 940px;
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 300px);
+    grid-column-gap: 5px;
+}
+
+.trescuadros .pie{
+    display: flex;
+    align-items: center;
+}
+
+.trescuadros p{
+    color: black;
+}
+
+/* intermedio */
+
+.intermedio{
+    width: 940px;
+    margin: auto;
+}
+
+/* all */
+
+.all{
+    width: 940px;
+    margin: auto;
+}
+
+.intermedio h2{
+    float: right;
+}
+
+/* hr */
+
+hr{
+    width: 940px;
+    margin: auto;
+    font-weight: bold;
+}
+
+/* Intermedio2 */
+
+.intermedio2{
+    width: 940px;
+    margin: auto;
+}
+
+.intermedio2 h2{
+    float: left;
+}
+
+/* all */
+
+.all .popular2{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.all div{
+    padding: 10px;
+}
+
+.all h3{
+    margin-bottom: 10px;
+}
+
+.all p{
+    color: black;
+}
+
+/* footer */
+
+.rectangulo{
+    width: 1270px;
+    height: 869px;
+    background-color: #316099;
+    border-radius: 0px 200px 0px 0px;
+}
+
+.principal-arriba{
+    display: flex;
+    width: 940px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.principal-arriba .izquierda{
+    width: 460px;
+    height: 250px;
+    background-color: #316099;
+    margin-left: 41px;
+    margin-top: 50px;
+}
+
+.principal-arriba .izquierda h4{
+    padding-bottom: 50px;
+    color: white;
+    font-size: 40px;
+}
+
+.principal-arriba .izquierda p{
+    color: white;
+}
+
+.principal-arriba .derecha{
+    width: 250px;
+    height: 200px;
+    background-color: #316099;
+    margin-top: 50px;
+}
+
+.boton{
+    width: 220px;
+    height: 56px;
+    background-color: #5A98D0;
+    border-radius: 10px;
+}
+
+.boton a{
+    margin: 30%;
+    color: white;
+    text-decoration: none;
+}
+
+.boton p{
+    padding-top: 18px;
+    padding-left: 15px;
+}
+
+.hrfooter{
+    width: 1270px;
+    color: #5A98D0;
+}
+
+.principal-abajo{
+    display: flex;
+    width: 940px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.principal-abajo .uno{
+    background-color: #316099;
+    width: 300px;
+    height: 200px;
+}
+
+.principal-abajo .uno h4, p {
+    margin-bottom: 10px;
+    text-align: center;
+    color: white;
+}
+
+
+.principal-abajo .dos{
+    background-color: #316099;
+    width: 300px;
+    height: 200px;
+}
+
+.principal-abajo .dos h4, p {
+    margin-bottom: 10px;
+    text-align: center;
+    color: white;
+}
+
+.principal-abajo .tres{
+    background-color: #316099;
+    width: 300px;
+    height: 200px;
+}
+
+.principal-abajo .tres h4, p {
+    margin-bottom: 10px;
+    text-align: center;
+    color: white;
+}
+
+.principal-abajo .tres a{
+    text-decoration: none;
+    color: white;
+}
+
